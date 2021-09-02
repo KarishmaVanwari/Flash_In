@@ -24,23 +24,14 @@ import 'firebase/storage';
 import 'firebase/firestore';
 // require('dotenv').config()
 
-//   // Your web app's Firebase configuration
-//   var firebaseConfig = {
-//     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-//     authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-//     projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-//     storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-//     messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-//     appId: process.env.REACT_APP_FIREBASE_APP_ID
-//   };
-
-  const firebaseConfig = {
-    apiKey: "AIzaSyBVs-J8gYPsSz0QFaBTdBV6-TdowWj5c6Y",
-    authDomain: "flash-in-auth.firebaseapp.com",
-    projectId: "flash-in-auth",
-    storageBucket: "flash-in-auth.appspot.com",
-    messagingSenderId: "170902088992",
-    appId: "1:170902088992:web:5079cb96e73cbc00663b45"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
   };
 
   // // Initialize Firebase
